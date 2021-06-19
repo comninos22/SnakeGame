@@ -1,0 +1,32 @@
+td {
+
+    height: 10px;
+    width: 10px;
+    margin: 0px;
+}
+td:nth-child(odd){
+    background-color:green;
+}
+table {
+    border: solid black 2px;
+}
+body{
+    display:flex;
+    justify-content: center;;
+    align-items: center;
+}
+.startPause, .speedControls{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+main{
+    display:flex;
+    flex-direction:column;
+    text-align: center;;
+}
+.mainDiv{
+    display:flex;
+    justify-content: center;;
+}
